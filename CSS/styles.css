@@ -13,9 +13,10 @@ html, body {
     margin: 0;
 }
 
-h1,h2,h3,h4,h5,h5{
+h1,h2,h3,h4,h5,h5,h6 strong{
 color:var(--mainText);
 font-family: 'Russo One', sans-serif;
+font-weight: 400;
 
 }
 
@@ -58,6 +59,12 @@ font-family: 'Roboto Mono', monospace;
 .main-container{
     width: 1200px;
     margin: 0 auto;
+}
+
+.greeting-wrapper{
+    display: grid;
+    border: 2px dashed lightcoral;
+    min-height: 20em;
 }
 
 @media screen and (max-width: 1200px){
